@@ -58,7 +58,7 @@ For the `x`, `y`, `z`, `ux`, `uy` and `uz` cell arrays, each cell element corres
 * To improve speed, do not include data ranges beyond what is absolutely required.
 * To ensure correct pressure calculations based on the interpolated velocity for multi-valued free surfaces (e.g. an over-turning wave):
   * Provide the highest elevation where water exists in `ETA` (i.e. an envelope).
-  * Set velocities to zero for air-filled cellsIn `ux`, `uy` and `uz`.
+  * Set velocities to zero for air-filled cells in `ux`, `uy` and `uz`.
 
 ## Limitation
 
