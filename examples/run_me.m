@@ -4,6 +4,9 @@
 % lm808, 02/2020.
 % github.com/lm808, all rights reserved.
 
+% For detailed description of the data structure, visit:
+% github.com/lm808/wave-interp
+
 clear; clc; close All
 
 data_file = 'wave08.mat';
